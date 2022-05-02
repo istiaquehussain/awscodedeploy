@@ -1,0 +1,10 @@
+version: 0.0
+os: linux
+files:
+  - source: /app
+    destination: /home/app/code
+permission:
+  - object: /
+    pattern: "*.*"
+    owner: app
+    group: app
